@@ -75,7 +75,7 @@ function mergeTwoLists(list1: ListNode | null, list2: ListNode | null): ListNode
     return res.next;
 };
 
-
+// v2
 
 function mergeTwoLists(list1: ListNode | null, list2: ListNode | null): ListNode | null {
     let res = new ListNode(0);

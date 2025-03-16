@@ -44,6 +44,13 @@ Constraints:
 At most 2 * 105 calls will be made to get and put.
 */
 
+/**
+ * Your LRUCache object will be instantiated and called as such:
+ * var obj = new LRUCache(capacity)
+ * var param_1 = obj.get(key)
+ * obj.put(key,value)
+ */
+
 class LRUCache {
     capacity: number;
     map: Map<number, number>;
@@ -74,10 +81,3 @@ class LRUCache {
         this.map.set(key, value);
     }
 }
-
-/**
- * Your LRUCache object will be instantiated and called as such:
- * var obj = new LRUCache(capacity)
- * var param_1 = obj.get(key)
- * obj.put(key,value)
- */

@@ -80,7 +80,7 @@ function rotateRight(head: ListNode | null, k: number): ListNode | null {
 
 function rotateRight(head: ListNode | null, k: number): ListNode | null {
     if (!head) return null;
-    
+
     let current = head;
     let length = 1;
 
