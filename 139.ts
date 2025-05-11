@@ -43,7 +43,7 @@ function wordBreak(s: string, wordDict: string[]): boolean {
 
     for (let i = 1; i <= s.length; i++) {
         for (let j = 0; j < i; j++) {
-            if (dp[j] && wordSet.has(s.substring(i, j))) {
+            if (dp[j] && wordSet.has(s.substring(j, i))) {
                 dp[i] = true;
                 break;
             }
