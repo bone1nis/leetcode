@@ -122,4 +122,5 @@
 09.05 - skip(train)  
 10.05 - skip(train)  
 11.05 - 139
-12.05 - 18.05 - skip(hackathon)
+12.05 - 18.05 - skip(hackathon)  
+19.05 - 198
